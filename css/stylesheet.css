@@ -262,9 +262,13 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   .mobile-nav {
     display: block;
   }
+  .social-media-nav {
+    display: none;
+  }
   .nav-item {
     display: inline-block;
     margin: 20px;
+    font-size: 30px;
   }
 
   .home-image {
@@ -294,7 +298,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
 }
 
-@media only screen and (max-width: 445px) {
+/*@media only screen and (max-width: 445px) {
 
   .nav-item {
     display: inline-block;
@@ -330,7 +334,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     width: 300px;
   }
 
-}
+}*/
 
 @media only screen and (max-device-width: 321px) and (orientation: portrait) {
 
