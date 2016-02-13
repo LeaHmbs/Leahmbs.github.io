@@ -249,7 +249,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
 }
 
-@media only screen and (max-width: 641px) and (orientation: portrait) {
+@media only screen and (max-device-width: 641px) and (orientation: portrait) {
 
   .nav-center {
     display: none;
@@ -336,7 +336,12 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
   .nav-item {
     display: inline-block;
-    margin: 5px;
+    margin: 20px;
+    font-size: 30px;
+  }
+
+  .social-media-nav {
+    display: none;
   }
 
   .image-about {
@@ -344,11 +349,11 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     margin-top: 0px;
   }
   .image-portfolio {
-    width: 200px;
+    width: 600px;
   }
 
   .section {
-    width: 200px;
+    width: 600px;
   }
 
   p {
