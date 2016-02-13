@@ -271,6 +271,10 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     font-size: 40px;
   }
 
+  .keinkappes {
+    margin-top: 150px;
+  }
+
   .home-image {
     width: 500px;
     margin-bottom: 40px;
@@ -346,6 +350,10 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
   .social-media-nav {
     display: none;
+  }
+
+  .keinkappes {
+    margin-top: 125px;
   }
 
   .home-image {
