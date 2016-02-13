@@ -246,7 +246,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     display: block;
     text-align: center;
     height: auto;
-    border: black solid 4px;
+    border-bottom: black solid 4px;
   }
   .mobile-nav {
     display: block;
@@ -352,7 +352,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 @media only screen and (max-device-width: 321px) and (orientation: portrait) {
 
   .nav {
-    border: black solid 4px;
+    border-bottom: black solid 4px;
   }
   .nav-item {
     display: inline-block;
