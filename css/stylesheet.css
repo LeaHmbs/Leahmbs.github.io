@@ -246,6 +246,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     display: block;
     text-align: center;
     height: auto;
+    border: black solid 4px;
   }
   .mobile-nav {
     display: block;
@@ -269,6 +270,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
   .image-portfolio {
     width: 800px;
+    border: black solid 4px;
   }
   .image-about {
     padding-bottom: 50px;
@@ -349,6 +351,9 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
 @media only screen and (max-device-width: 321px) and (orientation: portrait) {
 
+  .nav {
+    border: black solid 4px;
+  }
   .nav-item {
     display: inline-block;
     margin: 25px;
@@ -372,6 +377,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
   .image-portfolio {
     width: 700px;
+    border: black solid 4px;
   }
 
   .section {
