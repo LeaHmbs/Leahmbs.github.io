@@ -91,20 +91,8 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   float: left;
 }
 
-.instagram-icon {
-  width: 30px;
-  height: 30px;
-  display: inline-block;;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.tumblr-icon {
-  width: 30px;
-  height: 30px;
-  display: inline-block;;
-  margin-left: 5px;
-  margin-right: 5px;
-}
+.instagram-icon,
+.tumblr-icon,
 .twitter-icon {
   width: 30px;
   height: 30px;
@@ -305,6 +293,16 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     padding: 50px;
   }
 
+  .instagram-icon,
+  .tumblr-icon,
+  .twitter-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 }
 
 /*@media only screen and (max-width: 445px) {
@@ -385,6 +383,16 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   #about,
   #contact {
     padding-top: 100px;
+  }
+
+  .instagram-icon,
+  .tumblr-icon,
+  .twitter-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
 }
