@@ -280,7 +280,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     margin-bottom: 40px;
   }
   .image-portfolio {
-    width: 900px;
+    width: 800px;
   }
   .image-about {
     padding-bottom: 50px;
@@ -288,7 +288,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   .section {
-    width: 900px;
+    width: 800px;
   }
 
 .keinkappes {
@@ -297,7 +297,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   #portfolio,
   #about,
   #contact {
-    padding-top: 40px;
+    padding-top: 100px;
   }
 
 }
@@ -372,9 +372,14 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   p {
-    font-size: 18px;
-    padding: 10px;
-    width: 100%-20%;
+    font-size: 30px;
+    padding: 50px;
+  }
+
+  #portfolio,
+  #about,
+  #contact {
+    padding-top: 100px;
   }
 
 }
