@@ -272,11 +272,11 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   .home-image {
-    width: 300px;
+    width: 500px;
     margin-bottom: 40px;
   }
   .image-portfolio {
-    width: 400px;
+    width: 600px;
   }
   .image-about {
     padding-bottom: 50px;
@@ -284,7 +284,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   .section {
-    width: 400px;
+    width: 600px;
   }
 
 .keinkappes {
@@ -348,6 +348,9 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     display: none;
   }
 
+  .home-image {
+    width: 500px;
+  }
   .image-about {
     padding-bottom: 25px;
     margin-top: 0px;
