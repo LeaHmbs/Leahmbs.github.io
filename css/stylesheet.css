@@ -289,8 +289,12 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   p {
-    font-size: 30px;
+    font-size: 40px;
     padding: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .instagram-icon,
@@ -375,7 +379,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   p {
-    font-size: 30px;
+    font-size: 40px;
     padding: 50px;
   }
 
