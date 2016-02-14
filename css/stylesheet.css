@@ -168,7 +168,16 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   margin-right: auto;
 }
 
-.pic-container {
+.gallery_js-flickity{
+  margin-top: 80px;
+}
+.gallery-cell {
+  width: 33%;
+  height: 480px;
+  margin-right: 10px;
+}
+
+/*.pic-container {
   width: 100%;
   white-space: nowrap;
   overflow-x: inherit;
@@ -182,7 +191,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 .pic-row {
   width: 100%;
   height: auto;
-}
+}*/
 
 .portfolio {
   height:auto;
