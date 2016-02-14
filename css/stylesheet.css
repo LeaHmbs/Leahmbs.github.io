@@ -77,6 +77,11 @@ p {
   display: inline-block;
   padding: 0px;
 }
+.sm-list-mobile {
+  list-style-type: none;
+  display: none;
+  padding: 0px;
+}
 
 .nav-item {
   display: inline-block;
@@ -96,13 +101,19 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   float: left;
 }
 
-.instagram-icon,
 .tumblr-icon,
 .twitter-icon {
   width: 30px;
   height: 30px;
   display: inline-block;;
   margin-left: 5px;
+  margin-right: 5px;
+}
+.instagram-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 0px;
   margin-right: 5px;
 }
 
@@ -143,7 +154,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   align-items: baseline;
   float: right;
   margin-left: 900px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 40px;
 }
 
@@ -189,19 +200,6 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 #about,
 #contact {
   padding-top: 70px;
-}
-
-.footer {
-  text-align: center;
-  padding: 0px;
-  display: block;
-  bottom: 0;
-  font-size: 12px;
-  text-align: center;
-  width: auto;
-  height: 150px;
-  margin-top: 120px;
-  background-color: white;
 }
 
 
@@ -266,6 +264,12 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     font-size: 40px;
   }
 
+  .sm-list-mobile {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+  }
+
   .keinkappes {
     margin-top: 150px;
   }
@@ -305,13 +309,19 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     font-size: 60px;
   }
 
-  .instagram-icon,
   .tumblr-icon,
   .twitter-icon {
     width: 70px;
     height: 70px;
     display: block;
     margin-left: 10px;
+    margin-right: 10px;
+  }
+  .instagram-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 0px;
     margin-right: 10px;
   }
 
@@ -357,6 +367,10 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
 @media only screen and (max-device-width: 321px) and (orientation: portrait) {
 
+  .keinkappes {
+    margin-top: 125px;
+  }
+
   .nav {
     height: 100px;
     border-bottom: black solid 4px;
@@ -371,9 +385,12 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     display: none;
   }
 
-  .keinkappes {
-    margin-top: 125px;
+  .sm-list-mobile {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
   }
+
 
   .home-image {
     width: 500px;
@@ -402,13 +419,19 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     padding-top: 100px;
   }
 
-  .instagram-icon,
   .tumblr-icon,
   .twitter-icon {
     width: 70px;
     height: 70px;
     display: block;
     margin-left: 10px;
+    margin-right: 10px;
+  }
+  .instagram-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 0px;
     margin-right: 10px;
   }
 
