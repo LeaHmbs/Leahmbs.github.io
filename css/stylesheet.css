@@ -168,13 +168,17 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   margin-right: auto;
 }
 
-.gallery_js-flickity{
-  margin-top: 80px;
-}
 .gallery-cell {
-  width: 33%;
+  width: 35%;
   height: 480px;
   margin-right: 10px;
+  margin-top: 40px;
+}
+.gallery-cell-large {
+  width: 400px;
+  height: 480px;
+  margin-right: 10px;
+  margin-top: 40px;
 }
 
 /*.pic-container {
@@ -328,6 +332,13 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     margin-right: 10px;
   }
 
+  .gallery-cell {
+    width: 60%;
+    height: 480px;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+
 
 }
 
@@ -432,5 +443,13 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .gallery-cell {
+    width: 60%;
+    height: 480px;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+
 
 }
