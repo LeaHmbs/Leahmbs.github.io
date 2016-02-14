@@ -267,7 +267,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   .sm-list-mobile {
     list-style-type: none;
     display: inline-block;
-    padding: 0px;
+    padding: 50px;
   }
 
   .keinkappes {
@@ -309,6 +309,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     font-size: 60px;
   }
 
+  .instagram-icon,
   .tumblr-icon,
   .twitter-icon {
     width: 70px;
@@ -317,13 +318,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     margin-left: 10px;
     margin-right: 10px;
   }
-  .instagram-icon {
-    width: 70px;
-    height: 70px;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+
 
 }
 
@@ -388,7 +383,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   .sm-list-mobile {
     list-style-type: none;
     display: inline-block;
-    padding: 0px;
+    padding-left: 50px;
   }
 
 
@@ -419,19 +414,13 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     padding-top: 100px;
   }
 
+  .instagram-icon,
   .tumblr-icon,
   .twitter-icon {
     width: 70px;
     height: 70px;
     display: block;
     margin-left: 10px;
-    margin-right: 10px;
-  }
-  .instagram-icon {
-    width: 70px;
-    height: 70px;
-    display: block;
-    margin-left: 0px;
     margin-right: 10px;
   }
 
