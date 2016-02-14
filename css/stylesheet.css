@@ -1,11 +1,16 @@
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
 }
 
 .keinkappes {
