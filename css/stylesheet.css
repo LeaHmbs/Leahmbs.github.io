@@ -335,43 +335,6 @@ a:hover {color: #d6d6d6; text-decoration: none;}
 
 }
 
-/*@media only screen and (max-width: 445px) {
-
-  .nav-item {
-    display: inline-block;
-    margin: 10px;
-  }
-
-  p {
-    padding: 20px;
-    width: 100%-40%;
-  }
-
-}
-
-@media only screen and (max-width: 420px) {
-
-  .nav-item {
-    display: inline-block;
-    margin: 10px;
-  }
-
-  .home-image{
-    width: 200px;
-  }
-  .image-about {
-    padding-bottom: 25px;
-    margin-top: 0px;
-  }
-  .image-portfolio {
-    width: 300px;
-  }
-
-  .section {
-    width: 300px;
-  }
-
-}*/
 
 @media only screen and (max-device-width: 321px) and (orientation: portrait) {
 
@@ -412,7 +375,7 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     border: black solid 4px;
   }
   .image-comicstrip {
-    width: 500px;
+    height: 500px;
   }
 
   .section {
@@ -441,13 +404,13 @@ a:hover {color: #d6d6d6; text-decoration: none;}
   }
 
   .gallery-cell {
-    width: 60%;
+    width: 50%;
     height: 600px;
     margin-right: 10px;
     margin-top: 40px;
   }
   .gallery-cell-large {
-    width: 80%;
+    width: 70%;
     height: 600px;
     margin-right: 10px;
     margin-top: 40px;
