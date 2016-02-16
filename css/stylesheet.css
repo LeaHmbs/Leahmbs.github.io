@@ -393,13 +393,19 @@ a:hover {color: #d6d6d6; text-decoration: none;}
     padding-top: 100px;
   }
 
-  .instagram-icon,
   .tumblr-icon,
   .twitter-icon {
     width: 70px;
     height: 70px;
     display: block;
     margin-left: 10px;
+    margin-right: 10px;
+  }
+  .instagram-icon{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 0px;
     margin-right: 10px;
   }
 
